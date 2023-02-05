@@ -1,0 +1,11 @@
+/*
+
+# Dirs
+/src
+
+# Files
+!/.gitignore
+!/build.cjs
+!/package.json
+!/yarn.lock
+!/words.json
