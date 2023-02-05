@@ -1,0 +1,22 @@
+{
+  "name": "alligator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/7y1o/alligator-tg-bot.git",
+  "author": "7y1o <tdesu.webdesign@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/bot.js",
+    "build": "node build.js",
+    "all": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.11.2",
+    "telegraf-session-local": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "esbuild": "^0.17.5"
+  }
+}

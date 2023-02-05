@@ -1,11 +1,12 @@
 /*
 
 # Dirs
-/src
+!/src
 
 # Files
 !/.gitignore
-!/build.cjs
+!/build.js
 !/package.json
 !/yarn.lock
 !/words.json
+!/.env.example
